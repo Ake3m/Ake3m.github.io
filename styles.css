@@ -1,0 +1,150 @@
+body{
+    background-color: #212F45;
+    color:white;
+    margin:0px;
+    font-family: 'Roboto Condensed';
+}
+main{
+    margin-top:50px;
+    margin-left:100px;
+}
+.logo{
+    font-size: 50px;
+}
+.logo_style_one{
+    font-size:40px;
+    font-weight: 700;
+}
+.logo_style_two{
+    font-size:45px;
+    font-weight: 700;
+    color:#f25622;
+}
+.intro_one{
+    font-weight: 100;
+    color: #52B69A;
+    margin-bottom: 0px;
+    
+}
+.intro_two{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-weight:700;
+    font-size: 100px;
+    
+    
+}
+.intro_three{
+    margin-top: 0px;
+    font-weight:700;
+    font-size: 60px;
+    margin-bottom:0px;
+    color:#52B69A;
+    letter-spacing: 10px;
+    /* max-width:400px ; */
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar ul{
+    max-width: 50%;;
+    display:flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+#navbar ul li {
+    
+    list-style-type: none;
+
+}
+#navbar ul li a{
+    
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    border-bottom: 2px solid #006466;
+    padding:5px 10px;
+    border-bottom:2px solid #006466;
+    box-sizing: border-box;
+    transition: 0.5s;
+    /* border-radius: 10px;; */
+}
+
+#navbar ul li a:hover{
+    background-color: #006466;
+    font-size:20px;
+}
+
+
+
+.section_header{
+    margin-top:120px;
+    color:#52B69A;
+}
+
+#about_me{
+    max-width: 900px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.about_me_intro p{
+   max-width:400px;
+   text-align: justify;
+}
+
+.about_me_img img{
+    max-width:300px;
+    max-height: 300px;
+    box-shadow: 15px 15px teal;
+    transition: 0.5s;
+
+}
+.about_me_img img:hover{
+    box-shadow: 20px 20px teal;
+
+}
+
+
+.contact_icons_container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.fab{
+    color:white;
+    transition: 0.2s;
+}
+.fab:hover{
+    color:teal;
+    transform:translateY(-5px);
+}
+
+.email_btn{
+    border:2px solid teal;
+    color:teal;
+    font-weight: 700;
+    background-color: ;
+    margin: 10px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #20c9cc00;
+    transition: 0.2s;
+
+}
+
+.email_btn:hover{
+    border :2px solid white;
+    color:white;
+    transform:translateY(-3px);
+    box-shadow: 0px 3px 5px white;
+}
+
+.email_container{
+    display:flex;
+    justify-content: start;
+}
