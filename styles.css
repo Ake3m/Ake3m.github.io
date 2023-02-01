@@ -1,4 +1,8 @@
+html:focus-within{
+    scroll-behavior:smooth !important;
+}
 body{
+    scroll-behavior:smooth !important;
     background-color: #212F45;
     color:white;
     margin:0px;
