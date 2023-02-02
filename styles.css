@@ -1,26 +1,25 @@
-html:focus-within{
-    scroll-behavior:smooth !important;
-}
+/* html{
+    font-size: 16px;
+} */
 body{
-    scroll-behavior:smooth !important;
     background-color: #212F45;
     color:white;
     margin:0px;
     font-family: 'Roboto Condensed';
 }
 main{
-    margin-top:50px;
-    margin-left:100px;
+    margin-top:3.13rem;
+    margin-left:6.25rem;
 }
 .logo{
-    font-size: 50px;
+    font-size: 3.13rem;
 }
 .logo_style_one{
-    font-size:40px;
+    font-size:2.5rem;
     font-weight: 700;
 }
 .logo_style_two{
-    font-size:45px;
+    font-size:2.8125rem;
     font-weight: 700;
     color:#f25622;
 }
@@ -28,20 +27,21 @@ main{
     font-weight: 100;
     color: #52B69A;
     margin-bottom: 0px;
+    font-size: 1.5rem;
     
 }
 .intro_two{
     margin-top:0px;
     margin-bottom:0px;
     font-weight:700;
-    font-size: 100px;
+    font-size: 6.25rem;
     
     
 }
 .intro_three{
     margin-top: 0px;
     font-weight:700;
-    font-size: 60px;
+    font-size: 3.75rem;
     margin-bottom:0px;
     color:#52B69A;
     letter-spacing: 10px;
@@ -78,9 +78,13 @@ main{
 
 #navbar ul li a:hover{
     background-color: #006466;
-    font-size:20px;
+    font-size:1.25rem;
 }
 
+
+p{
+    font-size:1.2rem;
+}
 
 
 .section_header{
@@ -90,20 +94,21 @@ main{
     text-orientation:upright;
     writing-mode: horizontal-tb;
     /* letter-spacing: -5px; */
-    font-size: 20;
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
-
-#about_me{
+#about_me_container{
     max-width: 1000px;
     display:flex;
     justify-content: space-between;
     
 }
 
+
 .about_me_intro p{
-   max-width:400px;
+   max-width:600px;
    text-align: justify;
+   font-size: 1.5rem;
 }
 
 .about_me_img img{
@@ -162,4 +167,29 @@ main{
 
 .subsection{
     margin-top: 50px;
+}
+
+
+/*media queries*/
+@media (max-width:1000px)
+{
+
+    #navbar{
+        justify-content: space-around;
+    }
+    #navbar ul{
+        flex-direction: column;
+    }
+
+    #about_me_container{
+        flex-direction: column;
+    }
+
+    html{
+        font-size: 10px;
+    }
+    .about_me_intro p{
+        max-width:90%;
+     }
+
 }
