@@ -91,6 +91,7 @@ main{
     transition: transform 0.3s;
     text-transform: uppercase;
     font-weight: bold;
+    box-shadow: 0px 5px 10px#c8cfcd;
 }
 
 .home_hero_button:hover{
