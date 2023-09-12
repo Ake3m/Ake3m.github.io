@@ -2,10 +2,49 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:#FCFCFC ;
 }
 
+.header{
+    background-color: #06D6A0;
+    padding:20px 20px;
+}
 .header_content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin:10px 20px;
+    
+}
+
+.header_content ul{
+    display: flex;;
+    justify-content: space-around;
+} 
+
+.header_content ul a{
+    margin-left:50px;
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+.header_content ul a:hover{
+    color:white;
+    cursor:pointer;
+}
+
+
+.header_content ul a li{
+    text-transform: uppercase;
+}
+
+
+.hero_img{
+    width:300px;
+    border-radius: 100%;
 }
