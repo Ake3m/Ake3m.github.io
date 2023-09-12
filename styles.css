@@ -44,7 +44,56 @@ body{
 }
 
 
-.hero_img{
+.home_hero_img{
     width:300px;
     border-radius: 100%;
+    margin-bottom: 50px;
+}
+
+.home_hero p{
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+main{
+    display:flex;
+    justify-content: center;
+}
+.content_area{
+    width:80%;
+}
+
+.home_hero{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_hero_alt-text-color{
+    color: #06D6A0;
+}
+
+.home_hero h1{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.home_hero_button{
+    text-decoration: none;
+    color:white;
+    background-color: #06D6A0;
+    border-radius: 10px;
+    padding:20px 150px;
+    margin-bottom: 150px;
+    transition: transform 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home_hero_button:hover{
+    background-color: #08aa7f;
+    transform: translateY(-5px);
 }
