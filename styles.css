@@ -132,12 +132,20 @@ main{
     margin-bottom: 20px;
     font-size: 25px;
 }
+
+.main_container-split-1 p {
+    margin-bottom: 15px;
+}
 .main_container-split-2-skills{
     display:flex;
     flex-wrap: wrap;
 
 }
 
+.linkedIn-link{
+    font-weight: 600;
+    color:#08aa7f
+}
 .main_container-split-2-skills li{
     list-style: none;
     background-color: #06D6A0;
