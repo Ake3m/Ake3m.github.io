@@ -180,5 +180,30 @@ main{
 
 
 .projects_container{
-    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.project_card{
+    border: 1px solid rgb(211, 211, 211);
+    width:400px;
+    height:400px;
+    background-color:rgb(235, 235, 235);
+   border-radius: 10px;
+    box-shadow: 0px 3px 1px rgb(222, 222, 222);
+}
+
+.project_card-tile{
+    height:1%; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.project_card img{
+    display:block;
+    margin:0 auto;
+    width:150px;
+}
+
+

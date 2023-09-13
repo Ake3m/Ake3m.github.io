@@ -99,18 +99,36 @@ for (let project of projects)
 
     //creating HTML elements to be inserted
     let projectCard=document.createElement("div");
-    let projectCardImg=document.createElement("img")
-    let projecCardTtitle=document.createElement("p");
-    let projectCardDescription=document.createElement("p")
-    let projectCardLink=document.createElement("a")
+    // let projectCardTile=document.createElement("div");
+    let projectCardImg=document.createElement("img");
+    let projectCardTitle=document.createElement("p");
+    let projectCardDescription=document.createElement("p");
+    let projectCardLink=document.createElement("a");
+    let projectCardStack=document.createElement("ul");
 
     //add content to the elements
     projectCardImg.src=imageURL;
     projectCardImg.alt=`project logo for ${name}`;
     projectCardImg.title=`${name} logo`;
 
-    projectCard.appendChild(projectCardImg)
+    projectCardTitle.textContent=name;
+    projectCardDescription.textContent=description
 
+
+
+    //add details to card
+    // projectCard.appendChild(projectCardTile)
+    projectCard.appendChild(projectCardImg)
+    projectCard.appendChild(projectCardTitle)
+    projectCard.appendChild(projectCardDescription)
+
+
+    //style elements
+    projectCard.classList.add("project_card")
+    // projectCardTile.classList.add("project_card-tile");
+    // projectCardTile.style.backgroundColor=tileColor;
+
+    //add card to container
     projectContainer.append(projectCard)
 
 }
