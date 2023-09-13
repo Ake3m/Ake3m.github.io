@@ -192,6 +192,8 @@ main{
     background-color:rgb(235, 235, 235);
    border-radius: 10px;
     box-shadow: 0px 3px 1px rgb(222, 222, 222);
+    margin:10px;
+    padding:20px;
 }
 
 .project_card-tile{
