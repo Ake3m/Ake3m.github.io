@@ -12,6 +12,16 @@ body{
     background-color: #06D6A0;
     padding:20px 20px;
 }
+
+.header_logo-sub{
+    font-weight:bold ;
+    text-transform: uppercase;
+    color:#f2f2f2;
+}
+/* .header_logo-sub-alt{
+    font-family: ;
+    
+} */
 .header_content{
     display: flex;
     flex-direction: row;
@@ -142,7 +152,7 @@ main{
 
 }
 
-.linkedIn-link{
+.link-text{
     font-weight: 600;
     color:#08aa7f
 }
