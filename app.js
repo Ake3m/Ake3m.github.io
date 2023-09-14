@@ -89,6 +89,7 @@ for (let project of projects)
     projectCardLink.href=githubLink
     projectCardLink.target="_blank"
     projectCardLink.textContent="Repository";
+    projectCardLink.title=`Repository link for ${name}`
 
     projectCardLink.appendChild(githubIcon)
 
