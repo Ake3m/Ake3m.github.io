@@ -1,7 +1,7 @@
 const projects = [
     {
         name: "NDHU Smart Park",
-        description: "Created as a university graduation project, NDHU Smart Park is a smart parking solution that makes use of various platforms and machine learning in order to provide accurate real time parking lot updates.",
+        description: "Created as a university graduation project, NDHU Smart Park is a smart parking solution that makes use of various technologies and machine learning in order to provide accurate real time parking lot updates.",
         imageURL: "https://user-images.githubusercontent.com/25711110/184541676-4995be97-b415-47d6-90a3-60ae2853f5c8.png",
         stack: ["Python", "Flutter/Dart", "OpenCV", "YoloV3", "Firebase"],
         githubLink: "https://github.com/Ake3m/NDHU-Smart-Park"
@@ -83,6 +83,8 @@ for (let project of projects)
 
     projectCardTitle.textContent=name;
     projectCardDescription.textContent=description
+    projectCardDescription.style.textAlign="justify";
+    projectCardDescription.style.color="#898989"
 
     projectCardLink.href=githubLink
     projectCardLink.target="_blank"
