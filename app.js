@@ -22,68 +22,41 @@ const projects = [
 
     },
     {
+        name: "Color Launch",
+        description: "Created as a final project submission for  CSIEB0340-Introduction to Virtual Reality course. Developed using C# and Unity, Color Launch is puzzle platformer using color manipulation to complete the stage. ",
+        imageURL: "./assets/color-launch.png",
+        stack: ["C#", "Unity"],
+        githubLink: "https://github.com/Ake3m/Color-Launch",
+    },
+    {
+        name: "Techy",
+        description:"A Discord bot created to aid the NDHU Tech Club's Discord Server. Primarily performs role assignments.",
+        imageURL: "./assets/Techy.png",
+        stack: ["Javascript"],
+        githubLink: "https://github.com/Ake3m/Techy",
+    },
+    {
+        name: "Brave Heart Clinic",
+        description: "Created as a final project submission for CSIEB0290-Database Systems course. It's a clinic appointment booking system using XAMPP, MYSQL, PHP and HTML/CSS.",
+        imageURL: "./assets/brave-heart.png",
+        stack: ["HTML", "CSS", "Javascript", "PHP", "SQL", ],
+        githubLink: "https://github.com/Ake3m/Database-Project",
+    },
+    {
         name: "One Piece Grabber",
         description: "A script that allows a user to scrape, download and read One Piece chapters in PDF format.",
-        imageURL: "https://m.media-amazon.com/images/I/61ymLYL2eKS._AC_SL1500_.jpg",
+        imageURL: "./assets/one-piece.png",
         stack: ["Python","Beautifulsoup", "Pillow", "Regular Expressions"],
         githubLink: "https://github.com/Ake3m/One-Piece-Grabber",
-    },
+    }
     // {
     //     name: "",
     //     description: "",
     //     imageURL: "",
     //     stack: [],
     //     githubLink: "",
-    //     tileColor: ""
     // },
-    // {
-    //     name: "",
-    //     description: "",
-    //     imageURL: "",
-    //     stack: [],
-    //     githubLink: "",
-    //     tileColor: ""
-    // },
-    // {
-    //     name: "",
-    //     description: "",
-    //     imageURL: "",
-    //     stack: [],
-    //     githubLink: "",
-    //     tileColor: ""
-    // },
-    // {
-    //     name: "",
-    //     description: "",
-    //     imageURL: "",
-    //     stack: [],
-    //     githubLink: "",
-    //     tileColor: ""
-    // },
-    // {
-    //     name: "",
-    //     description: "",
-    //     imageURL: "",
-    //     stack: [],
-    //     githubLink: "",
-    //     tileColor: ""
-    // },
-    // {
-    //     name: "",
-    //     description: "",
-    //     imageURL: "",
-    //     stack: [],
-    //     githubLink: "",
-    //     tileColor: ""
-    // },
-    // {
-    //     name: "",
-    //     description: "",
-    //     imageURL: "",
-    //     stack: [],
-    //     githubLink: "",
-    //     tileColor: ""
-    // },
+    
 ];
 
 let projectContainer=document.querySelector(".projects_container");

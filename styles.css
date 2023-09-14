@@ -181,9 +181,12 @@ main{
 
 
 .projects_container{
+    width:90%;
+    margin:10px auto;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .project_card{
