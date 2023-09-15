@@ -319,9 +319,24 @@ main{
     text-align: left;
 }
 
+.contact-methods ul li a{
+    color:black;
+}
 
-
-.contact-methods ul li:hover{
+.contact-methods ul li a:hover{
     /* background-color: #06D6A0; */
-    color: #06D6A0
+    color: #06D6A0;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    background-color:black;
+    height:50px;
+}
+
+footer p {
+    color:white;
 }
