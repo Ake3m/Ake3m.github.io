@@ -267,9 +267,61 @@ main{
 .repository_btn:hover{
     background-color: #08aa7f;
 }
-.fa-brands{
+.fa-brands, .fa-solid{
     font-size: 20px;
     margin-left:10px;
 }
 
+#contact{
+    margin-top:30px;
+    background-color:#f2f2f2 ;
+}
 
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    height:400px;
+    width: 100%;;
+    flex-wrap: wrap;
+}
+
+.contact-text{
+    flex-grow:2;
+    /* max-width: 70%; */
+    margin:10px 30px;
+}
+
+.contact-text p{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.contact-methods{
+    flex-grow:1;
+
+}
+
+.contact-methods ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.contact-icon-resize{
+    font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.contact-methods ul li{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+
+
+.contact-methods ul li:hover{
+    /* background-color: #06D6A0; */
+    color: #06D6A0
+}
