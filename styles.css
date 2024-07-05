@@ -32,7 +32,7 @@ body{
 .header_content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
     margin:10px 20px;
     
 }
@@ -289,13 +289,13 @@ main{
 }
 
 #contact{
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-top:30px;
     background-color:#f2f2f2 ;
 }
 
 .contact-container{
-    border:1px solid black;
+    /* border:1px solid black; */
     display: flex;
     justify-content: space-between;
     height:400px;
@@ -366,6 +366,20 @@ footer p {
     
     .main_container-split{
         flex-direction: column;
+    }
+    .header_content,.header_content ul{
+        /* border: 1px solid black; */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header_content ul li {
+        padding:10px;
+    }
+
+    .contact-text p{
+        font-size: 1.5em;
     }
 
 }
