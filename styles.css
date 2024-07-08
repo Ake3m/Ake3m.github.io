@@ -67,6 +67,7 @@ body{
 
 .home_hero_img{
     width:20%;
+    min-width:300px;
     border-radius: 100%;
     margin-bottom: 50px;
 }
@@ -384,7 +385,9 @@ footer p {
     }
 
     .main_container-split-1 > p{
-        width:90%;
+        width:100%;
+        text-align: justify;
+
     }
 
 

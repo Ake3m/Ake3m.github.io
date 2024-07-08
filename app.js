@@ -42,13 +42,13 @@ const projects = [
         stack: ["HTML", "CSS", "Javascript", "PHP", "SQL", ],
         githubLink: "https://github.com/Ake3m/Database-Project",
     },
-    {
-        name: "One Piece Grabber",
-        description: "A script that allows a user to scrape, download and read One Piece chapters in PDF format.",
-        imageURL: "./assets/one-piece.png",
-        stack: ["Python","Beautifulsoup", "Pillow", "Regular Expressions"],
-        githubLink: "https://github.com/Ake3m/One-Piece-Grabber",
-    }
+    // {
+    //     name: "One Piece Grabber",
+    //     description: "A script that allows a user to scrape, download and read One Piece chapters in PDF format.",
+    //     imageURL: "./assets/one-piece.png",
+    //     stack: ["Python","Beautifulsoup", "Pillow", "Regular Expressions"],
+    //     githubLink: "https://github.com/Ake3m/One-Piece-Grabber",
+    // }
     // {
     //     name: "",
     //     description: "",
